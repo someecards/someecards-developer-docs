@@ -6,12 +6,14 @@
 
 ### Parameters:
 
-* `url` - accepted formats:
+* `url` (required) - accepted formats:
   * https://www.someecards.com/.+-cards/*
   * https://www.someecards.com/usercards/viewcard/*
   * https://some.ly/*
-* `format`
+* `format` (optional)
   * Currently `json` is supported
+* `callback` (optional)
+  * Returns jsonp response format. callback is name of the JavaScript function to execute.
 
 ### Example:
 
